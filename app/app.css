@@ -144,45 +144,6 @@ body {
   }
 }
 
-.noise {
-  position: fixed;
-  inset: 0;
-
-  pointer-events: none;
-
-  opacity: 0.06;
-
-  z-index: 9999;
-
-  background-image: radial-gradient(rgba(0, 0, 0, 0.18) 1px, transparent 1px);
-
-  background-size: 5px 5px;
-
-  animation: noiseMove 0.3s infinite linear;
-}
-
-@keyframes noiseMove {
-  0% {
-    transform: translate(0, 0);
-  }
-
-  25% {
-    transform: translate(1px, -1px);
-  }
-
-  50% {
-    transform: translate(-1px, 1px);
-  }
-
-  75% {
-    transform: translate(1px, 1px);
-  }
-
-  100% {
-    transform: translate(0, 0);
-  }
-}
-
 .noise-bg {
   position: fixed;
   inset: 0;
