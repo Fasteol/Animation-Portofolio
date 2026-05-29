@@ -1,6 +1,7 @@
 @import "tailwindcss/preflight";
 @tailwind utilities;
 
+html,
 body {
   font-family: "Space Grotesk", sans-serif;
   background: #fff9f0;

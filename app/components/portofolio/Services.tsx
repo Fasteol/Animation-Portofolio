@@ -20,14 +20,14 @@ const services = [
 ];
 export default function Services() {
   return (
-    <section className="px-6 lg:px-20 py-32">
+    <section className="px-6 lg:px-20 py-16 md:py-32">
       {" "}
       <motion.h2
         initial={{ opacity: 0, y: 60 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ type: "spring" }}
-        className="text-5xl font-black mb-16"
+        className="text-3xl sm:text-4xl lg:text-5xl font-black mb-12 md:mb-16"
       >
         {" "}
         SERVICES{" "}
@@ -37,7 +37,7 @@ export default function Services() {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true }}
-        className="grid lg:grid-cols-3 gap-10"
+        className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10"
       >
         {" "}
         {services.map((service) => (

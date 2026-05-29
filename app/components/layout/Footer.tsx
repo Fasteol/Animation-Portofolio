@@ -9,7 +9,7 @@ export default function Footer() {
         className="flex whitespace-nowrap"
       >
         {" "}
-        <h1 className="text-[120px] font-black">
+        <h1 className="text-[60px] sm:text-[80px] lg:text-[120px] font-black">
           {" "}
           LET'S BUILD SOMETHING AWESOME — LET'S BUILD SOMETHING AWESOME —{" "}
         </h1>{" "}

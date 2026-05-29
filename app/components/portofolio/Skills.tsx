@@ -9,9 +9,9 @@ const skills = [
 ];
 export default function Skills() {
   return (
-    <section className="px-6 lg:px-20 py-24">
+    <section className="px-6 lg:px-20 py-16 md:py-24">
       {" "}
-      <h2 className="text-5xl font-black mb-12"> TECH STACK </h2>{" "}
+      <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black mb-10 md:mb-12"> TECH STACK </h2>{" "}
       <div className="flex flex-wrap gap-6">
         {" "}
         {skills.map((skill) => (
