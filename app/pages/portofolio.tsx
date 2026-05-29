@@ -1,7 +1,5 @@
 import Navbar from "~/components/layout/Navbar";
 import Footer from "~/components/layout/Footer";
-import FloatingShapes from "~/components/layout/FloatingShapes";
-import CursorBlob from "~/components/layout/CursorBlob";
 import ScrollProgress from "~/components/layout/ScrollProgress";
 import Hero from "~/components/portofolio/Hero";
 import About from "~/components/portofolio/About";
@@ -26,17 +24,11 @@ export default function PortfolioPage() {
       {/* NOISE */}
       <div className="noise-bg z-1" />
 
-      {/* PARALLAX */}
+      {/* PARALLAX + CURSOR */}
       <MouseParallax />
 
       {/* MAIN ANIMATED BG */}
       <AnimatedBackground />
-
-      {/* EXTRA FLOATING */}
-      <FloatingShapes />
-
-      {/* CURSOR */}
-      <CursorBlob />
 
       {/* SCROLL BAR */}
       <ScrollProgress />
