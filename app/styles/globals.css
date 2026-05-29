@@ -1,0 +1,17 @@
+@import "tailwindcss/preflight";
+@tailwind utilities;
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background: #fff9f0;
+  overflow-x: hidden;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: black;
+  color: white;
+}
