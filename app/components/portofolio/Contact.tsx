@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Contact() {
   return (
-    <section className="px-6 lg:px-20 py-32">
+    <section className="px-6 lg:px-20 py-16 md:py-32">
       <motion.div
         initial={{
           scale: 0.8,
@@ -42,7 +42,7 @@ export default function Contact() {
             duration: 5,
             repeat: Infinity,
           }}
-          className="text-6xl font-black"
+          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black"
         >
           LET'S WORK TOGETHER
         </motion.h2>
@@ -62,8 +62,10 @@ export default function Contact() {
           }}
           className="
             mt-10
-            px-8
-            py-4
+            px-6
+            py-3
+            sm:px-8
+            sm:py-4
             bg-black
             text-white
             border-4
@@ -71,7 +73,8 @@ export default function Contact() {
             rounded-2xl
             shadow-[8px_8px_0px_black]
             font-black
-            text-2xl
+            text-xl
+            sm:text-2xl
           "
         >
           CONTACT ME

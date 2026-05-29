@@ -22,7 +22,7 @@ const timeline = [
 
 export default function Timeline() {
   return (
-    <section className="px-6 lg:px-20 py-32">
+    <section className="px-6 lg:px-20 py-16 md:py-32">
       <motion.h2
         initial={{
           opacity: 0,
@@ -38,7 +38,7 @@ export default function Timeline() {
         viewport={{
           once: true,
         }}
-        className="text-5xl font-black mb-20"
+        className="text-3xl sm:text-4xl lg:text-5xl font-black mb-12 md:mb-20"
       >
         EXPERIENCE
       </motion.h2>
@@ -61,13 +61,16 @@ export default function Timeline() {
             }}
             className="
               flex
+              flex-wrap
               items-center
-              gap-8
+              gap-4
+              sm:gap-8
               bg-white
               border-4
               border-black
               rounded-[30px]
-              p-8
+              p-5
+              sm:p-8
               shadow-[8px_8px_0px_black]
             "
           >

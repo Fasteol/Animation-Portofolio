@@ -5,9 +5,9 @@ export default function Hero() {
   const { scrollY } = useScroll();
   const y = useTransform(scrollY, [0, 1000], [0, -200]);
   return (
-    <section className="min-h-screen flex items-center px-6 lg:px-20">
+    <section className="min-h-screen flex items-center px-6 lg:px-20 pt-24 pb-16">
       {" "}
-      <div className="grid lg:grid-cols-2 gap-16 items-center">
+      <div className="w-full grid md:grid-cols-2 gap-10 lg:gap-16 items-center">
         {" "}
         <motion.div
           style={{ y }}
@@ -16,7 +16,7 @@ export default function Hero() {
           animate="show"
         >
           {" "}
-          <h1 className="text-6xl lg:text-8xl font-black leading-none">
+          <h1 className="text-5xl sm:text-6xl lg:text-8xl font-black leading-none">
             {" "}
             CREATIVE{" "}
             <span className=" block mt-4 w-fit --rotate-2 bg-yellow-300 px-4 py-2 border-4 border-black shadow-[8px_8px_0px_black] ">
@@ -24,14 +24,14 @@ export default function Hero() {
               FRONTEND{" "}
             </span>{" "}
           </h1>{" "}
-          <p className="mt-8 text-xl max-w-lg font-semibold">
+          <p className="mt-6 text-lg sm:text-xl max-w-lg font-semibold">
             {" "}
             Building immersive interfaces with playful motion, cartoon
             aesthetics, and brutalist UI systems.{" "}
           </p>{" "}
           <motion.button
             {...hoverPress}
-            className=" mt-10 px-8 py-4 bg-cyan-300 border-4 border-black rounded-2xl shadow-[8px_8px_0px_black] text-2xl font-black "
+            className=" mt-8 px-6 py-3 sm:px-8 sm:py-4 bg-cyan-300 border-4 border-black rounded-2xl shadow-[8px_8px_0px_black] text-xl sm:text-2xl font-black "
           >
             {" "}
             VIEW PROJECTS{" "}

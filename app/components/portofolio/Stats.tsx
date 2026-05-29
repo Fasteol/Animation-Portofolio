@@ -66,7 +66,7 @@ export default function Stats() {
                 type: "spring",
                 stiffness: 200,
               }}
-              className="text-6xl font-black"
+              className="text-4xl sm:text-6xl font-black"
             >
               {item.number}
             </motion.h1>

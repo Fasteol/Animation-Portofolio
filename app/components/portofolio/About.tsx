@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section className="px-6 lg:px-20 py-32">
-      <div className="grid lg:grid-cols-2 gap-16 items-center">
+    <section className="px-6 lg:px-20 py-16 md:py-32">
+      <div className="grid md:grid-cols-2 gap-10 lg:gap-16 items-center">
         <motion.div
           initial={{
             opacity: 0,
@@ -70,7 +70,7 @@ export default function About() {
             ABOUT ME
           </span>
 
-          <h2 className="mt-8 text-5xl font-black leading-tight">
+          <h2 className="mt-8 text-3xl sm:text-4xl lg:text-5xl font-black leading-tight">
             Building playful interfaces with motion and brutalist aesthetics.
           </h2>
 

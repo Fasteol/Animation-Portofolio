@@ -32,12 +32,12 @@ export default function Testimonials() {
         transition={{
           type: "spring",
         }}
-        className="text-5xl font-black mb-16"
+        className="text-3xl sm:text-4xl lg:text-5xl font-black mb-12 md:mb-16"
       >
         TESTIMONIALS
       </motion.h2>
 
-      <div className="grid lg:grid-cols-2 gap-10">
+      <div className="grid sm:grid-cols-2 gap-8 lg:gap-10">
         {testimonials.map((item, i) => (
           <motion.div
             key={item.name}
